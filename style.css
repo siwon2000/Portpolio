@@ -20,7 +20,7 @@
 }
 .dropdown-content {
     position: absolute;
-    background-color: black;
+    background-color: gray;
     display: none;
 }
 .dropdown-content a {
@@ -34,7 +34,7 @@
 }
 nav ul {
     width: 100%;
-    background-color: black;
+    background-color: gray;
     list-style-type: none;
     margin: 0;
     padding: 0;
