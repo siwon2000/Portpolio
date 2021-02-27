@@ -1,0 +1,44 @@
+.headtitle {
+    text-align: center;
+}
+.dropdown {
+    position: relative;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-menu {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.dropdown-menu:hover:not(.home){
+    background-color: orange;
+    color: white;
+}
+.dropdown-content {
+    position: absolute;
+    background-color: black;
+    display: none;
+}
+.dropdown-content a {
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: black;
+}
+nav ul {
+    width: 100%;
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    width: 100px;
