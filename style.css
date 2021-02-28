@@ -4,6 +4,19 @@
 .dropdown {
     position: relative;
 }
+.sidebar {
+    border: 3px solid;
+    position: relative;
+    width: 300px;
+    height: 1000px;
+    margin: 10px 10px 10px 0px;
+}
+.content {
+    border: 3px solid;
+    position: relative;
+    left: 310px;
+}
+/*
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -32,13 +45,23 @@
 .dropdown-content a:hover {
     background-color: black;
 }
+*/
 nav ul {
-    width: 100%;
+    width: auto;
     background-color: gray;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 16px;
 }
 nav ul li {
     display: inline-block;
     width: 100px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    }
+a {
+    text-decoration: none;
+    color: black;
+}
