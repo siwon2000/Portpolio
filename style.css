@@ -5,33 +5,26 @@
 .dropdown {
     position: relative;
 }
-.sidebar {
-    border: 3px solid;
-    position: absolute;
-    width: 300px;
-    height: auto;
-    margin: 10px 10px 10px 0px;
-}
 .content {
-    border: 0.5px solid;
+    border: 2px solid;
     position: absolute;
-    max-width: 900px;
-    left: 310px;
-    margin: 10px;
+    width: 1060px;
+    height: auto;
+    margin-left: -530px;
+    left: 50%
 }
 .aboutme {
-    position: absolute;
+    float: left;
     border: 0.5px solid;
-    margin: 10px 0px;
-    padding: 50px 0px;
     width: 150px;
+    height: 150px;
+    text-align: center;
 }
 .aboutmetext {
-    position: absolute;
+    float: right;
     border: 0.5px solid;
-    left: 150px;
-    min-width: 300px;
-    margin: 10px 0px;
+    width: 900px;
+    height: 150px;
 }
 /*
 .dropdown:hover .dropdown-content {
